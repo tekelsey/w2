@@ -30,4 +30,12 @@ function checkGuess() {
         feedback.textContent = 'Sorry, that is incorrect. Try again!';
         feedback.style.color = 'red';
     }
-} // This closing brace and parenthesis were missing
+}
+
+function resetGame() {
+    newGame();
+    document.getElementById('user-input').value = '';
+    document.getElementById('feedback').textContent = '';
+}
+
+newGame();
