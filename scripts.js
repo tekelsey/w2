@@ -29,4 +29,5 @@ function checkGuess() {
     } else {
         feedback.textContent = 'Sorry, that is incorrect. Try again!';
         feedback.style.color = 'red';
-   
+    }
+} // This closing brace and parenthesis were missing
